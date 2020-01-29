@@ -1,3 +1,24 @@
+
+/**********************************************
+*** GENERAL
+**********************************************/
+
+.final-score{
+    position: absolute;
+    left: 50%;
+    top: 320px;
+    transform: translateX(-50%);
+    color: #555;
+    font-size: 18px;
+    font-family: 'Lato';
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    text-transform: uppercase;
+}
+
+.final-score:focus { outline: none; }
+
 * {
     margin: 0;
     padding: 0;
@@ -64,7 +85,7 @@ body {
     font-weight: 100;
     color: #EB4D4D;
     margin-bottom: 130px;
-}
+}   
 
 .active { background-color: #f7f7f7; }
 .active .player-name { font-weight: 300; }
